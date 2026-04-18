@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tima Documentation | Setup and Everyday Help</title>
+    <meta
+      name="description"
+      content="Setup instructions, notification help, backup guidance, and practical tips for getting the most from Tima."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Sora:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="icons/app_icon.png" />
+    <link rel="apple-touch-icon" href="icons/app_icon.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="docs">
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">
+            <img src="icons/app_icon.png" alt="Tima app icon" />
+          </span>
+          <span class="brand-copy">
+            <strong>Tima</strong>
+            <small>Student routine, made lighter.</small>
+          </span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          Menu
+        </button>
+        <nav id="site-nav" class="site-nav">
+          <a href="index.html" data-nav="home">Home</a>
+          <a href="docs.html" data-nav="docs">Documentation</a>
+          <a href="privacy.html" data-nav="privacy">Privacy Policy</a>
+          <a
+            class="store-link"
+            href="https://play.google.com/store/apps/details?id=com.yalaststudios.tima"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="icons/play_store_icon.png" alt="" />
+            <span>Play Store</span>
+          </a>
+        </nav>
+      </header>
+
+      <main class="page-main">
+        <section class="page-hero reveal">
+          <p class="eyebrow">Documentation</p>
+          <h1>Helpful steps for using Tima effectively.</h1>
+          <p>
+            These guides are written for real use, not for perfect conditions. Start small, set up the parts that
+            matter most, and improve your routine as you go.
+          </p>
+        </section>
+
+        <section class="doc-layout">
+          <aside class="doc-sidebar reveal">
+            <a href="#setup">Setup</a>
+            <a href="#schedule">Schedule planning</a>
+            <a href="#events">Events and deadlines</a>
+            <a href="#notifications">Notifications</a>
+            <a href="#backups">Backups</a>
+            <a href="#tips">Helpful habits</a>
+            <a href="#troubleshooting">Troubleshooting</a>
+          </aside>
+
+          <div class="doc-content">
+            <section id="setup" class="doc-section reveal">
+              <h2>Setup</h2>
+              <div class="doc-card">
+                <h3>Recommended first-time setup</h3>
+                <ol class="number-list">
+                  <li>Complete onboarding and allow notifications if you want reminders.</li>
+                  <li>Add your weekly classes first so the rest of the app has context.</li>
+                  <li>Choose whether you prefer 12-hour or 24-hour time in Settings.</li>
+                  <li>Open the Events page and add the deadlines you already know.</li>
+                  <li>Visit Backup in Settings and export your first file after setup.</li>
+                </ol>
+              </div>
+            </section>
+
+            <section id="schedule" class="doc-section reveal">
+              <h2>Schedule planning</h2>
+              <div class="doc-card">
+                <h3>How to make the schedule page work better</h3>
+                <ul class="plain-list">
+                  <li>Use edit mode when you are actively building or changing your timetable.</li>
+                  <li>Keep venue names consistent so your schedule stays easier to scan.</li>
+                  <li>Use Auto-scroll to today if you mostly care about what is next, not the full week at once.</li>
+                  <li>Search is best for quickly checking one course without scrolling through every day.</li>
+                </ul>
+              </div>
+            </section>
+
+            <section id="events" class="doc-section reveal">
+              <h2>Events and deadlines</h2>
+              <div class="doc-card">
+                <h3>What belongs in Events</h3>
+                <p>
+                  Tima supports tests, presentations, assignments, exams, and other date-based items. This page works
+                  best when you add important academic dates as soon as you hear about them.
+                </p>
+                <ul class="plain-list">
+                  <li>Add deadlines early, even if the exact hour is not final yet.</li>
+                  <li>Group your attention by month so busy periods are visible sooner.</li>
+                  <li>Use the relative status labels to check what is today, tomorrow, or already passed.</li>
+                </ul>
+              </div>
+            </section>
+
+            <section id="notifications" class="doc-section reveal">
+              <h2>Notifications</h2>
+              <div class="doc-card">
+                <h3>How reminders work</h3>
+                <ul class="plain-list">
+                  <li>Class reminders are sent 30 minutes before saved classes.</li>
+                  <li>Event reminders are scheduled 2 days before, 1 day before, and on the event date.</li>
+                  <li>Course start alerts can notify you right when a course begins.</li>
+                </ul>
+              </div>
+              <div class="doc-card">
+                <h3>Important Android note</h3>
+                <p>
+                  On Android, sound and vibration behavior is controlled by notification categories. Open the
+                  notification settings inside Tima if you want to adjust sound, vibration, or pop-on-screen behavior
+                  for each category.
+                </p>
+              </div>
+              <div class="doc-card">
+                <h3>If reminders seem late</h3>
+                <ul class="plain-list">
+                  <li>Confirm that notifications are enabled for the app.</li>
+                  <li>Reduce battery restrictions or set the app to a less restricted battery mode.</li>
+                  <li>Double-check your class and event times for accuracy.</li>
+                </ul>
+              </div>
+            </section>
+
+            <section id="backups" class="doc-section reveal">
+              <h2>Backups</h2>
+              <div class="doc-card">
+                <h3>What backup export includes</h3>
+                <p>
+                  Tima exports schedules, events, and saved suggestions into a JSON backup file. The app uses Android's
+                  file picker so you can choose where the backup is saved.
+                </p>
+              </div>
+              <div class="doc-card">
+                <h3>Best backup habit</h3>
+                <ul class="plain-list">
+                  <li>Export a backup after major changes.</li>
+                  <li>Keep at least one backup in a location you trust.</li>
+                  <li>Import only files that came from your own Tima setup.</li>
+                </ul>
+              </div>
+            </section>
+
+            <section id="tips" class="doc-section reveal">
+              <h2>Helpful habits</h2>
+              <div class="doc-card">
+                <h3>A steady routine beats a complicated one</h3>
+                <ul class="plain-list">
+                  <li>Review tomorrow's classes before you sleep.</li>
+                  <li>Check Events once at the start of the week and once midweek.</li>
+                  <li>Use Free Time to spot your lightest day before you commit to extra tasks.</li>
+                  <li>Keep your reminders supportive, not overwhelming.</li>
+                </ul>
+              </div>
+            </section>
+
+            <section id="troubleshooting" class="doc-section reveal">
+              <h2>Troubleshooting</h2>
+              <div class="doc-card">
+                <h3>Common questions</h3>
+                <div class="faq-stack">
+                  <article>
+                    <strong>Why do I not hear reminder sounds?</strong>
+                    <p>Check the Android notification category settings for that reminder type.</p>
+                  </article>
+                  <article>
+                    <strong>Why is the app asking about file access during backup actions?</strong>
+                    <p>
+                      Tima uses Android's document picker for import and export so you can choose the location yourself.
+                    </p>
+                  </article>
+                  <article>
+                    <strong>Why are reminders still unreliable on some phones?</strong>
+                    <p>
+                      Some devices delay background work when battery optimization is aggressive. Reducing restrictions
+                      usually helps.
+                    </p>
+                  </article>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div>
+          <strong>Tima</strong>
+          <p>Make your week easier to trust.</p>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="docs.html">Documentation</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="https://play.google.com/store/apps/details?id=com.yalaststudios.tima" target="_blank" rel="noreferrer">
+            Play Store
+          </a>
+        </div>
+        <p class="footer-note">Last updated <span data-year></span></p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
